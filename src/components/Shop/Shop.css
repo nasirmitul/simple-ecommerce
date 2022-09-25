@@ -7,12 +7,14 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 45px;
+    grid-gap: 25px;
 }
 
 .cart-container{
     background: #FFE0B3;
     border-radius: 8px;
-    padding: 10px;
+    padding: 20px;
     height: 100vh;
+    position: sticky;
+    top: 0px;
 }
