@@ -1,0 +1,19 @@
+nav{
+    background: #1C2B35;
+    height: 80px;
+    padding: 0 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-links{
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #fff;
+}
